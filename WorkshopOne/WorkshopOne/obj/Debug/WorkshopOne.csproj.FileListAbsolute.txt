@@ -1,0 +1,8 @@
+C:\Users\dfmcd\source\repos\WorkshopOne\WorkshopOne\bin\Debug\WorkshopOne.exe.config
+C:\Users\dfmcd\source\repos\WorkshopOne\WorkshopOne\bin\Debug\WorkshopOne.exe
+C:\Users\dfmcd\source\repos\WorkshopOne\WorkshopOne\bin\Debug\WorkshopOne.pdb
+C:\Users\dfmcd\source\repos\WorkshopOne\WorkshopOne\obj\Debug\WorkshopOne.csproj.AssemblyReference.cache
+C:\Users\dfmcd\source\repos\WorkshopOne\WorkshopOne\obj\Debug\WorkshopOne.csproj.SuggestedBindingRedirects.cache
+C:\Users\dfmcd\source\repos\WorkshopOne\WorkshopOne\obj\Debug\WorkshopOne.csproj.CoreCompileInputs.cache
+C:\Users\dfmcd\source\repos\WorkshopOne\WorkshopOne\obj\Debug\WorkshopOne.exe
+C:\Users\dfmcd\source\repos\WorkshopOne\WorkshopOne\obj\Debug\WorkshopOne.pdb
