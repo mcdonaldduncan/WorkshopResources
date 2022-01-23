@@ -1,0 +1,8 @@
+C:\Users\dfmcd\source\repos\WorkshopTwo\WorkshopTwo\bin\Debug\WorkshopTwo.exe.config
+C:\Users\dfmcd\source\repos\WorkshopTwo\WorkshopTwo\bin\Debug\WorkshopTwo.exe
+C:\Users\dfmcd\source\repos\WorkshopTwo\WorkshopTwo\bin\Debug\WorkshopTwo.pdb
+C:\Users\dfmcd\source\repos\WorkshopTwo\WorkshopTwo\obj\Debug\WorkshopTwo.csproj.AssemblyReference.cache
+C:\Users\dfmcd\source\repos\WorkshopTwo\WorkshopTwo\obj\Debug\WorkshopTwo.csproj.SuggestedBindingRedirects.cache
+C:\Users\dfmcd\source\repos\WorkshopTwo\WorkshopTwo\obj\Debug\WorkshopTwo.csproj.CoreCompileInputs.cache
+C:\Users\dfmcd\source\repos\WorkshopTwo\WorkshopTwo\obj\Debug\WorkshopTwo.exe
+C:\Users\dfmcd\source\repos\WorkshopTwo\WorkshopTwo\obj\Debug\WorkshopTwo.pdb
