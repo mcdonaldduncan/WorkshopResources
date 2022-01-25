@@ -1,0 +1,8 @@
+C:\Users\dfmcd\source\repos\MagicPuppets2\obj\Debug\MagicPuppets.csproj.AssemblyReference.cache
+C:\Users\dfmcd\source\repos\MagicPuppets2\obj\Debug\MagicPuppets.csproj.CoreCompileInputs.cache
+C:\Users\dfmcd\source\repos\MagicPuppets2\bin\Debug\MagicPuppets.exe.config
+C:\Users\dfmcd\source\repos\MagicPuppets2\bin\Debug\MagicPuppets.exe
+C:\Users\dfmcd\source\repos\MagicPuppets2\bin\Debug\MagicPuppets.pdb
+C:\Users\dfmcd\source\repos\MagicPuppets2\obj\Debug\MagicPuppets.exe
+C:\Users\dfmcd\source\repos\MagicPuppets2\obj\Debug\MagicPuppets.pdb
+C:\Users\dfmcd\source\repos\MagicPuppets2\obj\Debug\MagicPuppets.csproj.SuggestedBindingRedirects.cache

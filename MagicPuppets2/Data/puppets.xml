@@ -1,0 +1,6 @@
+<puppets>
+<puppet name = "Zebra" material1 = "sock" material2 = "googlyeye" material3 = "pompom" value = "15"></puppet>
+<puppet name = "Crocodile" material1 = "pipecleaner" material2 = "toothpick" material3 = "felt" value = "15"></puppet>
+<puppet name = "Lion" material1 = "glitter" material2 = "hay" material3 = "vynil" value = "15"></puppet>
+<puppet name = "Hippo" material1 = "mitten" material2 = "pebbles" material3 = "string" value = "15"></puppet>
+</puppets>

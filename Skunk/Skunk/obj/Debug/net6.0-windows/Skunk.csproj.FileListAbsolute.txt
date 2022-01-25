@@ -1,0 +1,42 @@
+C:\Users\forestpark\source\repos\Skunk\Skunk\bin\Debug\net6.0-windows\Skunk.exe
+C:\Users\forestpark\source\repos\Skunk\Skunk\bin\Debug\net6.0-windows\Skunk.deps.json
+C:\Users\forestpark\source\repos\Skunk\Skunk\bin\Debug\net6.0-windows\Skunk.runtimeconfig.json
+C:\Users\forestpark\source\repos\Skunk\Skunk\bin\Debug\net6.0-windows\Skunk.dll
+C:\Users\forestpark\source\repos\Skunk\Skunk\bin\Debug\net6.0-windows\ref\Skunk.dll
+C:\Users\forestpark\source\repos\Skunk\Skunk\bin\Debug\net6.0-windows\Skunk.pdb
+C:\Users\forestpark\source\repos\Skunk\Skunk\obj\Debug\net6.0-windows\Skunk.csproj.AssemblyReference.cache
+C:\Users\forestpark\source\repos\Skunk\Skunk\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\forestpark\source\repos\Skunk\Skunk\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\forestpark\source\repos\Skunk\Skunk\obj\Debug\net6.0-windows\Skunk_MarkupCompile.cache
+C:\Users\forestpark\source\repos\Skunk\Skunk\obj\Debug\net6.0-windows\Skunk_MarkupCompile.lref
+C:\Users\forestpark\source\repos\Skunk\Skunk\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\forestpark\source\repos\Skunk\Skunk\obj\Debug\net6.0-windows\Skunk.g.resources
+C:\Users\forestpark\source\repos\Skunk\Skunk\obj\Debug\net6.0-windows\Skunk.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\forestpark\source\repos\Skunk\Skunk\obj\Debug\net6.0-windows\Skunk.AssemblyInfoInputs.cache
+C:\Users\forestpark\source\repos\Skunk\Skunk\obj\Debug\net6.0-windows\Skunk.AssemblyInfo.cs
+C:\Users\forestpark\source\repos\Skunk\Skunk\obj\Debug\net6.0-windows\Skunk.csproj.CoreCompileInputs.cache
+C:\Users\forestpark\source\repos\Skunk\Skunk\obj\Debug\net6.0-windows\Skunk.dll
+C:\Users\forestpark\source\repos\Skunk\Skunk\obj\Debug\net6.0-windows\ref\Skunk.dll
+C:\Users\forestpark\source\repos\Skunk\Skunk\obj\Debug\net6.0-windows\Skunk.pdb
+C:\Users\forestpark\source\repos\Skunk\Skunk\obj\Debug\net6.0-windows\Skunk.genruntimeconfig.cache
+C:\Users\dfmcd\OneDrive - Columbia College Chicago\Skunk\Skunk\bin\Debug\net6.0-windows\Skunk.exe
+C:\Users\dfmcd\OneDrive - Columbia College Chicago\Skunk\Skunk\bin\Debug\net6.0-windows\Skunk.deps.json
+C:\Users\dfmcd\OneDrive - Columbia College Chicago\Skunk\Skunk\bin\Debug\net6.0-windows\Skunk.runtimeconfig.json
+C:\Users\dfmcd\OneDrive - Columbia College Chicago\Skunk\Skunk\bin\Debug\net6.0-windows\Skunk.dll
+C:\Users\dfmcd\OneDrive - Columbia College Chicago\Skunk\Skunk\bin\Debug\net6.0-windows\ref\Skunk.dll
+C:\Users\dfmcd\OneDrive - Columbia College Chicago\Skunk\Skunk\bin\Debug\net6.0-windows\Skunk.pdb
+C:\Users\dfmcd\OneDrive - Columbia College Chicago\Skunk\Skunk\obj\Debug\net6.0-windows\Skunk.csproj.AssemblyReference.cache
+C:\Users\dfmcd\OneDrive - Columbia College Chicago\Skunk\Skunk\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\dfmcd\OneDrive - Columbia College Chicago\Skunk\Skunk\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\dfmcd\OneDrive - Columbia College Chicago\Skunk\Skunk\obj\Debug\net6.0-windows\Skunk_MarkupCompile.cache
+C:\Users\dfmcd\OneDrive - Columbia College Chicago\Skunk\Skunk\obj\Debug\net6.0-windows\Skunk_MarkupCompile.lref
+C:\Users\dfmcd\OneDrive - Columbia College Chicago\Skunk\Skunk\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\dfmcd\OneDrive - Columbia College Chicago\Skunk\Skunk\obj\Debug\net6.0-windows\Skunk.g.resources
+C:\Users\dfmcd\OneDrive - Columbia College Chicago\Skunk\Skunk\obj\Debug\net6.0-windows\Skunk.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dfmcd\OneDrive - Columbia College Chicago\Skunk\Skunk\obj\Debug\net6.0-windows\Skunk.AssemblyInfoInputs.cache
+C:\Users\dfmcd\OneDrive - Columbia College Chicago\Skunk\Skunk\obj\Debug\net6.0-windows\Skunk.AssemblyInfo.cs
+C:\Users\dfmcd\OneDrive - Columbia College Chicago\Skunk\Skunk\obj\Debug\net6.0-windows\Skunk.csproj.CoreCompileInputs.cache
+C:\Users\dfmcd\OneDrive - Columbia College Chicago\Skunk\Skunk\obj\Debug\net6.0-windows\Skunk.dll
+C:\Users\dfmcd\OneDrive - Columbia College Chicago\Skunk\Skunk\obj\Debug\net6.0-windows\ref\Skunk.dll
+C:\Users\dfmcd\OneDrive - Columbia College Chicago\Skunk\Skunk\obj\Debug\net6.0-windows\Skunk.pdb
+C:\Users\dfmcd\OneDrive - Columbia College Chicago\Skunk\Skunk\obj\Debug\net6.0-windows\Skunk.genruntimeconfig.cache

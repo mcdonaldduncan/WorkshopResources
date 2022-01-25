@@ -1,0 +1,26 @@
+﻿<Window x:Class="Skunk.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Skunk"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBlock x:Name="player1total" HorizontalAlignment="Left" Margin="84,155,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+        <TextBlock x:Name="player2total" HorizontalAlignment="Left" Margin="648,155,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+        <TextBlock x:Name="die1block" HorizontalAlignment="Left" Margin="290,168,0,0" TextWrapping="Wrap" Text="Die 1" VerticalAlignment="Top" Height="49" TextAlignment="Center"/>
+        <TextBlock x:Name="die2block" HorizontalAlignment="Left" Margin="448,168,0,0" TextWrapping="Wrap" Text="Die 2" VerticalAlignment="Top" Height="49" TextAlignment="Center"/>
+        <TextBlock x:Name="roundscoreblock" HorizontalAlignment="Center" Margin="0,123,0,0" TextWrapping="Wrap" Text="Round Score" VerticalAlignment="Top"/>
+        <TextBlock x:Name="Player1" HorizontalAlignment="Left" Margin="57,123,0,0" TextWrapping="Wrap" Text="Player 1 Total Score" VerticalAlignment="Top"/>
+        <TextBlock x:Name="Player2" HorizontalAlignment="Left" Margin="621,123,0,0" TextWrapping="Wrap" Text="Player 2 Total Score" VerticalAlignment="Top"/>
+        <Button x:Name="RolldiceButton" Content="Roll" HorizontalAlignment="Center" Margin="0,313,0,0" VerticalAlignment="Top" Width="56" Click="RolldiceButton_Click"/>
+        <Button x:Name="EndturnButton" Content="End Turn" HorizontalAlignment="Center" Margin="0,356,0,0" VerticalAlignment="Top" Width="56" Click="EndturnButton_Click"/>
+        <TextBlock x:Name="playerturnblock" HorizontalAlignment="Center" Margin="0,45,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+        <Button x:Name="GameChange" Content="Change Ruleset" HorizontalAlignment="Left" Margin="27,19,0,0" VerticalAlignment="Top" Click="GameChange_Click"/>
+        <TextBlock x:Name="GameTypeBlock" HorizontalAlignment="Left" Margin="130,21,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+        <Rectangle x:Name="EndGame" HorizontalAlignment="Left" Height="403" Margin="17,10,0,0" Stroke="Black" VerticalAlignment="Top" Width="762" Fill="#FFB3B2B2" Visibility="Hidden"/>
+        <TextBlock x:Name="WinnerBlock" HorizontalAlignment="Center" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Center" Visibility="Hidden"/>
+
+    </Grid>
+</Window>
