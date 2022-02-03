@@ -4,7 +4,7 @@ namespace ConsoleApp1
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             Student duncan = new Student("Duncan", "He/Him/His", "Programming, Reading, Swimming and Video Games");
             duncan.Description();
