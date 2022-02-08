@@ -12,16 +12,14 @@ namespace MagicPuppets
 
     public class Game
     {
-        
-        bool retry = true;
         Player player = new Player();
         Supplier supplier = new Supplier();
         Customer customer = new Customer();
         double initialFunds = 20;
         double baseValue = 15;
+        bool retry = true;
 
         List <Puppet> puppets = new List<Puppet>();
-
 
         List<string> materialinventory = new List<string>()
         {
