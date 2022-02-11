@@ -1,0 +1,16 @@
+C:\Users\380939\Documents\GitHub\WorkshopResources\ThursdayWorkshop3\ThursdayWorkshop3\bin\Debug\net5.0\ThursdayWorkshop3.exe
+C:\Users\380939\Documents\GitHub\WorkshopResources\ThursdayWorkshop3\ThursdayWorkshop3\bin\Debug\net5.0\ThursdayWorkshop3.deps.json
+C:\Users\380939\Documents\GitHub\WorkshopResources\ThursdayWorkshop3\ThursdayWorkshop3\bin\Debug\net5.0\ThursdayWorkshop3.runtimeconfig.json
+C:\Users\380939\Documents\GitHub\WorkshopResources\ThursdayWorkshop3\ThursdayWorkshop3\bin\Debug\net5.0\ThursdayWorkshop3.runtimeconfig.dev.json
+C:\Users\380939\Documents\GitHub\WorkshopResources\ThursdayWorkshop3\ThursdayWorkshop3\bin\Debug\net5.0\ThursdayWorkshop3.dll
+C:\Users\380939\Documents\GitHub\WorkshopResources\ThursdayWorkshop3\ThursdayWorkshop3\bin\Debug\net5.0\ref\ThursdayWorkshop3.dll
+C:\Users\380939\Documents\GitHub\WorkshopResources\ThursdayWorkshop3\ThursdayWorkshop3\bin\Debug\net5.0\ThursdayWorkshop3.pdb
+C:\Users\380939\Documents\GitHub\WorkshopResources\ThursdayWorkshop3\ThursdayWorkshop3\obj\Debug\net5.0\ThursdayWorkshop3.csproj.AssemblyReference.cache
+C:\Users\380939\Documents\GitHub\WorkshopResources\ThursdayWorkshop3\ThursdayWorkshop3\obj\Debug\net5.0\ThursdayWorkshop3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\380939\Documents\GitHub\WorkshopResources\ThursdayWorkshop3\ThursdayWorkshop3\obj\Debug\net5.0\ThursdayWorkshop3.AssemblyInfoInputs.cache
+C:\Users\380939\Documents\GitHub\WorkshopResources\ThursdayWorkshop3\ThursdayWorkshop3\obj\Debug\net5.0\ThursdayWorkshop3.AssemblyInfo.cs
+C:\Users\380939\Documents\GitHub\WorkshopResources\ThursdayWorkshop3\ThursdayWorkshop3\obj\Debug\net5.0\ThursdayWorkshop3.csproj.CoreCompileInputs.cache
+C:\Users\380939\Documents\GitHub\WorkshopResources\ThursdayWorkshop3\ThursdayWorkshop3\obj\Debug\net5.0\ThursdayWorkshop3.dll
+C:\Users\380939\Documents\GitHub\WorkshopResources\ThursdayWorkshop3\ThursdayWorkshop3\obj\Debug\net5.0\ref\ThursdayWorkshop3.dll
+C:\Users\380939\Documents\GitHub\WorkshopResources\ThursdayWorkshop3\ThursdayWorkshop3\obj\Debug\net5.0\ThursdayWorkshop3.pdb
+C:\Users\380939\Documents\GitHub\WorkshopResources\ThursdayWorkshop3\ThursdayWorkshop3\obj\Debug\net5.0\ThursdayWorkshop3.genruntimeconfig.cache

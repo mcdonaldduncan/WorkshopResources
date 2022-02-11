@@ -6,7 +6,10 @@ namespace ThursdayWorkshop3
     {
         static void Main()
         {
-            
+            Student student = new Student("Duncan","Programming and Reading");
+            student.Description("","");
+            Console.ReadKey();
+
         }
     }
 }
