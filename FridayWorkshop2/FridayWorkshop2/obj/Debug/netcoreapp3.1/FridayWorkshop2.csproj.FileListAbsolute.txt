@@ -1,0 +1,14 @@
+C:\Users\380939\source\repos\FridayWorkshop2\FridayWorkshop2\bin\Debug\netcoreapp3.1\FridayWorkshop2.exe
+C:\Users\380939\source\repos\FridayWorkshop2\FridayWorkshop2\bin\Debug\netcoreapp3.1\FridayWorkshop2.deps.json
+C:\Users\380939\source\repos\FridayWorkshop2\FridayWorkshop2\bin\Debug\netcoreapp3.1\FridayWorkshop2.runtimeconfig.json
+C:\Users\380939\source\repos\FridayWorkshop2\FridayWorkshop2\bin\Debug\netcoreapp3.1\FridayWorkshop2.runtimeconfig.dev.json
+C:\Users\380939\source\repos\FridayWorkshop2\FridayWorkshop2\bin\Debug\netcoreapp3.1\FridayWorkshop2.dll
+C:\Users\380939\source\repos\FridayWorkshop2\FridayWorkshop2\bin\Debug\netcoreapp3.1\FridayWorkshop2.pdb
+C:\Users\380939\source\repos\FridayWorkshop2\FridayWorkshop2\obj\Debug\netcoreapp3.1\FridayWorkshop2.csproj.AssemblyReference.cache
+C:\Users\380939\source\repos\FridayWorkshop2\FridayWorkshop2\obj\Debug\netcoreapp3.1\FridayWorkshop2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\380939\source\repos\FridayWorkshop2\FridayWorkshop2\obj\Debug\netcoreapp3.1\FridayWorkshop2.AssemblyInfoInputs.cache
+C:\Users\380939\source\repos\FridayWorkshop2\FridayWorkshop2\obj\Debug\netcoreapp3.1\FridayWorkshop2.AssemblyInfo.cs
+C:\Users\380939\source\repos\FridayWorkshop2\FridayWorkshop2\obj\Debug\netcoreapp3.1\FridayWorkshop2.csproj.CoreCompileInputs.cache
+C:\Users\380939\source\repos\FridayWorkshop2\FridayWorkshop2\obj\Debug\netcoreapp3.1\FridayWorkshop2.dll
+C:\Users\380939\source\repos\FridayWorkshop2\FridayWorkshop2\obj\Debug\netcoreapp3.1\FridayWorkshop2.pdb
+C:\Users\380939\source\repos\FridayWorkshop2\FridayWorkshop2\obj\Debug\netcoreapp3.1\FridayWorkshop2.genruntimeconfig.cache
