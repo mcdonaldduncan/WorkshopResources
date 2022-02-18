@@ -1,0 +1,16 @@
+C:\Users\380939\source\repos\ThursdayConditionals\ThursdayConditionals\bin\Debug\net5.0\ThursdayConditionals.exe
+C:\Users\380939\source\repos\ThursdayConditionals\ThursdayConditionals\bin\Debug\net5.0\ThursdayConditionals.deps.json
+C:\Users\380939\source\repos\ThursdayConditionals\ThursdayConditionals\bin\Debug\net5.0\ThursdayConditionals.runtimeconfig.json
+C:\Users\380939\source\repos\ThursdayConditionals\ThursdayConditionals\bin\Debug\net5.0\ThursdayConditionals.runtimeconfig.dev.json
+C:\Users\380939\source\repos\ThursdayConditionals\ThursdayConditionals\bin\Debug\net5.0\ThursdayConditionals.dll
+C:\Users\380939\source\repos\ThursdayConditionals\ThursdayConditionals\bin\Debug\net5.0\ref\ThursdayConditionals.dll
+C:\Users\380939\source\repos\ThursdayConditionals\ThursdayConditionals\bin\Debug\net5.0\ThursdayConditionals.pdb
+C:\Users\380939\source\repos\ThursdayConditionals\ThursdayConditionals\obj\Debug\net5.0\ThursdayConditionals.csproj.AssemblyReference.cache
+C:\Users\380939\source\repos\ThursdayConditionals\ThursdayConditionals\obj\Debug\net5.0\ThursdayConditionals.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\380939\source\repos\ThursdayConditionals\ThursdayConditionals\obj\Debug\net5.0\ThursdayConditionals.AssemblyInfoInputs.cache
+C:\Users\380939\source\repos\ThursdayConditionals\ThursdayConditionals\obj\Debug\net5.0\ThursdayConditionals.AssemblyInfo.cs
+C:\Users\380939\source\repos\ThursdayConditionals\ThursdayConditionals\obj\Debug\net5.0\ThursdayConditionals.csproj.CoreCompileInputs.cache
+C:\Users\380939\source\repos\ThursdayConditionals\ThursdayConditionals\obj\Debug\net5.0\ThursdayConditionals.dll
+C:\Users\380939\source\repos\ThursdayConditionals\ThursdayConditionals\obj\Debug\net5.0\ref\ThursdayConditionals.dll
+C:\Users\380939\source\repos\ThursdayConditionals\ThursdayConditionals\obj\Debug\net5.0\ThursdayConditionals.pdb
+C:\Users\380939\source\repos\ThursdayConditionals\ThursdayConditionals\obj\Debug\net5.0\ThursdayConditionals.genruntimeconfig.cache

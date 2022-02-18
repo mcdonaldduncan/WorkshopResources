@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThursdayConditionals", "ThursdayConditionals\ThursdayConditionals.csproj", "{209FD753-3F0F-4994-A348-A2C2E91C2B2B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{209FD753-3F0F-4994-A348-A2C2E91C2B2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{209FD753-3F0F-4994-A348-A2C2E91C2B2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{209FD753-3F0F-4994-A348-A2C2E91C2B2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{209FD753-3F0F-4994-A348-A2C2E91C2B2B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5EE3C482-C902-4F94-B349-990084526648}
+	EndGlobalSection
+EndGlobal
