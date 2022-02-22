@@ -1,0 +1,16 @@
+C:\Users\380939\source\repos\TuesdayWorkshop5\TuesdayWorkshop5\bin\Debug\net5.0\TuesdayWorkshop5.exe
+C:\Users\380939\source\repos\TuesdayWorkshop5\TuesdayWorkshop5\bin\Debug\net5.0\TuesdayWorkshop5.deps.json
+C:\Users\380939\source\repos\TuesdayWorkshop5\TuesdayWorkshop5\bin\Debug\net5.0\TuesdayWorkshop5.runtimeconfig.json
+C:\Users\380939\source\repos\TuesdayWorkshop5\TuesdayWorkshop5\bin\Debug\net5.0\TuesdayWorkshop5.runtimeconfig.dev.json
+C:\Users\380939\source\repos\TuesdayWorkshop5\TuesdayWorkshop5\bin\Debug\net5.0\TuesdayWorkshop5.dll
+C:\Users\380939\source\repos\TuesdayWorkshop5\TuesdayWorkshop5\bin\Debug\net5.0\ref\TuesdayWorkshop5.dll
+C:\Users\380939\source\repos\TuesdayWorkshop5\TuesdayWorkshop5\bin\Debug\net5.0\TuesdayWorkshop5.pdb
+C:\Users\380939\source\repos\TuesdayWorkshop5\TuesdayWorkshop5\obj\Debug\net5.0\TuesdayWorkshop5.csproj.AssemblyReference.cache
+C:\Users\380939\source\repos\TuesdayWorkshop5\TuesdayWorkshop5\obj\Debug\net5.0\TuesdayWorkshop5.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\380939\source\repos\TuesdayWorkshop5\TuesdayWorkshop5\obj\Debug\net5.0\TuesdayWorkshop5.AssemblyInfoInputs.cache
+C:\Users\380939\source\repos\TuesdayWorkshop5\TuesdayWorkshop5\obj\Debug\net5.0\TuesdayWorkshop5.AssemblyInfo.cs
+C:\Users\380939\source\repos\TuesdayWorkshop5\TuesdayWorkshop5\obj\Debug\net5.0\TuesdayWorkshop5.csproj.CoreCompileInputs.cache
+C:\Users\380939\source\repos\TuesdayWorkshop5\TuesdayWorkshop5\obj\Debug\net5.0\TuesdayWorkshop5.dll
+C:\Users\380939\source\repos\TuesdayWorkshop5\TuesdayWorkshop5\obj\Debug\net5.0\ref\TuesdayWorkshop5.dll
+C:\Users\380939\source\repos\TuesdayWorkshop5\TuesdayWorkshop5\obj\Debug\net5.0\TuesdayWorkshop5.pdb
+C:\Users\380939\source\repos\TuesdayWorkshop5\TuesdayWorkshop5\obj\Debug\net5.0\TuesdayWorkshop5.genruntimeconfig.cache
