@@ -13,7 +13,7 @@ namespace TestProj
             bool persist = true;
 
             Print("Choose a Game!\n");
-            Print("0: War\n1: High-Low");
+            Print("0: War\n1: High-Low\n2: BlackJack\n3: Exit");
 
             while (persist)
             {
@@ -28,6 +28,9 @@ namespace TestProj
 
                         break;
                     case "2":
+
+                        break;
+                    case "3":
                         Print("Exiting");
                         persist = false;
                         break;
