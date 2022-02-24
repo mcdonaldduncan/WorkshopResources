@@ -7,6 +7,9 @@ namespace TestProj
     class ArrayTest
     {
         int[] nums = {3, 4, 6};
+
+
+        
         
 
         public void PrintNum()
