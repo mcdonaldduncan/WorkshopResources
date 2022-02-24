@@ -22,12 +22,15 @@ namespace TestProj
             return val;
         }
 
-        void CheckAnswer()
+        bool CheckAnswer()
+        {
+            return GetCardValue(0) > GetCardValue(1);
+        }
+
+        void PrintGame()
         {
 
         }
-
-        
 
     }
 }
