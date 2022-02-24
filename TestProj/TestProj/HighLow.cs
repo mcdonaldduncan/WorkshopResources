@@ -4,11 +4,29 @@ using System.Text;
 
 namespace TestProj
 {
-    class HighLow
+    class HighLow : Game
     {
-        Deck deck = new Deck();
+        public override void Play()
+        {
+            InstantiateDeck();
 
+
+        }
         
+        int GetCardValue(int cardIndex)
+        {
+            int val;
+
+            val = deck.cards[cardIndex].Value;
+
+            return val;
+        }
+
+        void CheckAnswer()
+        {
+
+        }
+
         
 
     }
