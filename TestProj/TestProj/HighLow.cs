@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using static TestProj.Utility;
 
 namespace TestProj
 {
@@ -29,8 +30,16 @@ namespace TestProj
 
         void PrintGame()
         {
-
+            Print($"You have pulled a {deck.cards[0].Value} of {deck.cards[0].Suit}");
+            Print("Is the next card higher or lower?");
         }
 
+        bool PlayerInput()
+        {
+
+            
+            
+            return true;
+        }
     }
 }
