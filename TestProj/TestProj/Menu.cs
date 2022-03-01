@@ -8,6 +8,10 @@ namespace TestProj
 {
     class Menu
     {
+        HighLow highLow = new HighLow();
+        War war = new War();
+        BlackJack blackJack = new BlackJack();
+
         public void MenuLayout()
         {
             bool persist = true;
@@ -22,13 +26,13 @@ namespace TestProj
                 switch (playerInput)
                 {
                     case "0":
-                        
+                        war.Play();
                         break;
                     case "1":
-
+                        highLow.Play();
                         break;
                     case "2":
-
+                        blackJack.Play();
                         break;
                     case "3":
                         Print("Exiting");

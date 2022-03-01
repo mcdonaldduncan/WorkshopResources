@@ -7,6 +7,7 @@ namespace TestProj
     class Game
     {
         public Deck deck = new Deck();
+        public Player player = new Player();
 
         public void InstantiateDeck()
         {
