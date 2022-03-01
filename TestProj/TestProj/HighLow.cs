@@ -10,8 +10,6 @@ namespace TestProj
         public override void Play()
         {
             InstantiateDeck();
-
-
         }
         
         int GetCardValue(int cardIndex)
