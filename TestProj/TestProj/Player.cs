@@ -6,7 +6,10 @@ namespace TestProj
 {
     class Player
     {
-        public string name;
-        public int score;
+        private string name;
+        private int score;
+
+        public string Name { get => name; set => name = value; }
+        public int Score { get => score; set => score = value; }
     }
 }

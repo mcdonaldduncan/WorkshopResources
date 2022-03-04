@@ -12,7 +12,14 @@ namespace TestProj
             InstantiateDeck();
             StartGame();
         }
-        
+
+        public override void StartGame()
+        {
+            Print("Welcome to High-Low");
+            Pause();
+            RunGame();
+        }
+
         int GetCardValue(int cardIndex)
         {
             int val = deck.cards[cardIndex].Value;
@@ -23,17 +30,10 @@ namespace TestProj
         {
             return GetCardValue(0) < GetCardValue(1);
         }
-
-        void StartGame()
-        {
-            Print("Welcome to High-Low");
-            Pause();
-            RunGame();
-        }
-
+        
         void PrintGame()
         {
-            Print($"Your current score is {player.score}");
+            Print($"Your current score is {player.Score}");
             Print($"The current card is a {deck.cards[0].Value} of {deck.cards[0].Suit}");
             Print("Is the next card higher or lower?");
         }
@@ -63,7 +63,7 @@ namespace TestProj
 
             if (isGuessHigher && isHigher || !isGuessHigher && !isHigher)
             {
-                player.score++;
+                player.Score++;
                 Print("Correct!");
                 Pause();
             }

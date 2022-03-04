@@ -8,9 +8,9 @@ namespace TestProj
 {
     class Menu
     {
+        BlackJack blackJack = new BlackJack();
         HighLow highLow = new HighLow();
         War war = new War();
-        BlackJack blackJack = new BlackJack();
 
         public void MenuLayout()
         {

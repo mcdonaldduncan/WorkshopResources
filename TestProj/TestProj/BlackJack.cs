@@ -6,6 +6,17 @@ namespace TestProj
 {
     class BlackJack : Game
     {
+        public override void Play()
+        {
+            InstantiateDeck();
+
+        }
+
+        public override void StartGame()
+        {
+
+        }
+
 
     }
 }

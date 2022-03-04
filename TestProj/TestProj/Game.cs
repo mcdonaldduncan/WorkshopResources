@@ -20,5 +20,10 @@ namespace TestProj
         {
             
         }
+
+        public virtual void StartGame()
+        {
+
+        }
     }
 }
