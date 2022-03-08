@@ -10,17 +10,20 @@ namespace TestProj
         public Player player = new Player();
         public List<Card> hand = new List<Card>();
 
+        // Assemble and shuffle deck
         public void InstantiateDeck()
         {
             deck.AssembleDeck();
             deck.Shuffle();
         }
 
+        // Play method to be overridden
         public virtual void Play()
         {
             
         }
 
+        // Start method to be overridden
         public virtual void StartGame()
         {
 
