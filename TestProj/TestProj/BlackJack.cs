@@ -35,16 +35,26 @@ namespace TestProj
             deck.cards.RemoveAt(0);
         }
 
+        // Sum the values of all cards in hand
+        int SumHand()
+        {
+            int handSum = 0;
+            for (int i = 0; i < hand.Count; i++)
+            {
+                handSum += hand[i].Value;
+            }
+            return handSum;
+        }
+
         // print all cards in hand to console
         void PrintHand()
         {
-            int handSum = 0;
             Print("Current Hand:");
             for (int i = 0; i < hand.Count; i++)
             {
                 Print($"{PrintValueName(hand[i].Value)} of {hand[i].Suit}\n");
-                handSum += hand[i].Value;
             }
+            Print($"Hand value is {SumHand()}");
         }
 
         // If the hand sum is over 21, convert any aces to be low
@@ -65,6 +75,7 @@ namespace TestProj
         bool HitOrPass()
         {
             Print("Would you like another card?");
+
             string playerInput = InputToLower();
 
             if (playerInput == "y" || playerInput == "yes" || playerInput == "hit")

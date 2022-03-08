@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 using static TestProj.Utility;
+using static System.Console;
 
 namespace TestProj
 {
@@ -42,9 +43,9 @@ namespace TestProj
         }
 
         // Return true or false based on user input
-        bool PlayerInput()
+        bool HigherOrLower()
         {
-            string input = Console.ReadLine().ToLower();
+            string input = InputToLower();
             if (input == "h" || input == "high" || input == "higher")
             {
                 return true;
@@ -55,8 +56,8 @@ namespace TestProj
             }
             else
             {
-                Console.WriteLine("I didn't catch that, try again");
-                return PlayerInput();
+                Print("I didn't catch that, try again");
+                return HigherOrLower();
             }
         }
 
@@ -64,7 +65,7 @@ namespace TestProj
         void CheckAnswer()
         {
             bool isHigher = CheckValues();
-            bool isGuessHigher = PlayerInput();
+            bool isGuessHigher = HigherOrLower();
 
             if (isGuessHigher && isHigher || !isGuessHigher && !isHigher)
             {
@@ -85,6 +86,8 @@ namespace TestProj
             {
                 PrintGame();
                 CheckAnswer();
+                Pause();
+                Clear();
                 RemoveFirstCard();
             }
         }
