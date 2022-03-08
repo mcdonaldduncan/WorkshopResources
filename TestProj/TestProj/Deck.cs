@@ -13,6 +13,7 @@ namespace TestProj
 
         public List<Card> cards = new List<Card>();
 
+        // Generate a deck of cards based on suit and values
         public void AssembleDeck()
         {
             for (int i = 0; i < suits.Length; i++)
@@ -24,6 +25,7 @@ namespace TestProj
             }
         }
 
+        // Print entire deck to console
         public void PrintCards()
         {
             for (int i = 0; i < cards.Count; i++)
@@ -32,6 +34,7 @@ namespace TestProj
             }
         }
 
+        // Randomly order cards into a shuffled list
         public void Shuffle()
         {
             cards = cards.OrderBy(x => random.Next()).ToList();

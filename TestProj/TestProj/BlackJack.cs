@@ -21,18 +21,21 @@ namespace TestProj
 
         }
 
+        // Deal initial hand by dealing two cards to hand
         void DealHand()
         {
             DealCardFromDeck();
             DealCardFromDeck();
         }
 
+        // Deal the first card in the deck to the player hand
         void DealCardFromDeck()
         {
             hand.Add(deck.cards[0]);
             deck.cards.RemoveAt(0);
         }
 
+        // print all cards in hand to console
         void PrintHand()
         {
             int handSum = 0;
@@ -44,6 +47,7 @@ namespace TestProj
             }
         }
 
+        // If the hand sum is over 21, convert any aces to be low
         void CheckForAces(int handSum)
         {
             if (handSum <= 21)
@@ -57,6 +61,7 @@ namespace TestProj
             }
         }
 
+        // Take player input and return true/false based on answer
         bool HitOrPass()
         {
             Print("Would you like another card?");
@@ -73,6 +78,7 @@ namespace TestProj
             else
             {
                 Print("I didnt catch that, try again");
+                Pause();
                 Clear();
                 return HitOrPass();
             }

@@ -12,6 +12,7 @@ namespace TestProj
         HighLow highLow = new HighLow();
         War war = new War();
 
+        // Print menu to allow entry into each game mode
         public void MenuLayout()
         {
             bool persist = true;
