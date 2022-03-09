@@ -14,8 +14,6 @@ namespace WorkshopTues3._8
         {
             player.GenerateCurrency();
             vendor.GenerateInventory();
-            
-
         }
 
         public void PrintOptions()
