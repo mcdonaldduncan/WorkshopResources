@@ -34,7 +34,6 @@ namespace MagicPuppets
 
         public int SellOption()
         {
-            
             int numberInput;
             Print($"Select the item you wish to sell, enter your response as a number.\nCurrent Funds: ${Math.Round(player.funds, 2)}");
             int index = 0;
