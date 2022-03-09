@@ -9,7 +9,6 @@ namespace WorkshopTues3._8
         public Player player = new Player();
         public Vendor vendor = new Vendor();
 
-
         public void StartShop()
         {
             player.GenerateCurrency();
@@ -36,6 +35,18 @@ namespace WorkshopTues3._8
             vendor.currency += vendor.inventory[index].value;
             vendor.inventory.RemoveAt(index);
             
+        }
+
+        public void Battle(Player p, Vendor v)
+        {
+            if (p.health > v.health)
+            {
+                p.health++;
+            }
+            else
+            {
+                v.health++;
+            }
         }
 
 

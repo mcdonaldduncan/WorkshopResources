@@ -8,6 +8,7 @@ namespace WorkshopTues3._8
     {
         public string name;
         public float currency;
+        public int health;
 
         public List<Item> inventory = new List<Item>();
 
