@@ -38,7 +38,7 @@ namespace TestProj
         void PrintGame()
         {
             Print($"Your current score is {player.Score}");
-            Print($"The current card is a {PrintValueName(hand[0].Value)} of {deck.cards[0].Suit}");
+            Print($"The current card is a {PrintValueName(deck.cards[0].Value)} of {deck.cards[0].Suit}");
             Print("Is the next card higher or lower?");
         }
 

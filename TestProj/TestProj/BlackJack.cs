@@ -20,51 +20,53 @@ namespace TestProj
         }
 
         // Deal initial hand by dealing two cards from deck
-        void DealHand()
+        void DealInitialHands()
         {
-            DealCardFromDeck();
-            DealCardFromDeck();
+            DealCardFromDeck(player);
+            DealCardFromDeck(dealer);
+            DealCardFromDeck(player);
+            DealCardFromDeck(dealer);
         }
 
         // Deal the first card in the deck to the player hand
-        void DealCardFromDeck()
+        void DealCardFromDeck(Person subject)
         {
-            hand.Add(deck.cards[0]);
+            subject.hand.Add(deck.cards[0]);
             deck.cards.RemoveAt(0);
         }
 
         // Sum the values of all cards in hand
-        int SumHand()
+        int SumHand(Person subject)
         {
             int handSum = 0;
-            for (int i = 0; i < hand.Count; i++)
+            for (int i = 0; i < subject.hand.Count; i++)
             {
-                handSum += hand[i].Value;
+                handSum += subject.hand[i].Value;
             }
             return handSum;
         }
 
         // print all cards in hand to console
-        void PrintHand()
+        void PrintPlayerHand()
         {
             Print("Current Hand:");
-            for (int i = 0; i < hand.Count; i++)
+            for (int i = 0; i < player.hand.Count; i++)
             {
-                Print($"{PrintValueName(hand[i].Value)} of {hand[i].Suit}\n");
+                Print($"{PrintValueName(player.hand[i].Value)} of {player.hand[i].Suit}\n");
             }
-            Print($"Hand value is {SumHand()}");
+            Print($"Hand value is {SumHand(player)}");
         }
 
         // If the hand sum is over 21, convert any aces to be low
-        void CheckForAces(int handSum)
+        void CheckForAces(Person subject, int handSum)
         {
             if (handSum <= 21)
                 return;
-            for (int i = 0; i < hand.Count; i++)
+            for (int i = 0; i < subject.hand.Count; i++)
             {
-                if (hand[i].Value == 14)
+                if (subject.hand[i].Value == 14)
                 {
-                    hand[i].Value = 1;
+                    subject.hand[i].Value = 1;
                 }
             }
         }
@@ -86,9 +88,8 @@ namespace TestProj
             }
             else
             {
-                Print("I didnt catch that, try again");
-                Pause();
                 Clear();
+                Print("I didnt catch that, try again");
                 return HitOrPass();
             }
 

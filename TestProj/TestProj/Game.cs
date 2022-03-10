@@ -8,7 +8,7 @@ namespace TestProj
     {
         public Deck deck = new Deck();
         public Player player = new Player();
-        public List<Card> hand = new List<Card>();
+        public Dealer dealer = new Dealer();
 
         // Assemble and shuffle deck
         public void InstantiateDeck()

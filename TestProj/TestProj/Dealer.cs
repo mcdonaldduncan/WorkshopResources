@@ -4,8 +4,8 @@ using System.Text;
 
 namespace TestProj
 {
-    class Player : Person
+    class Dealer : Person
     {
-        
+
     }
 }
