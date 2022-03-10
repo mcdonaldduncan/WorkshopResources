@@ -6,5 +6,6 @@ namespace TestProj
 {
     class War : Game
     {
+
     }
 }
