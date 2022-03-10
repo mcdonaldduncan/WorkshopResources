@@ -17,8 +17,6 @@ namespace TestProj
         public override void StartGame()
         {
             Print("Welcome to BlackJack");
-
-
         }
 
         // Deal initial hand by dealing two cards from deck
