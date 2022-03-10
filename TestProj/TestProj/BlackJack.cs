@@ -21,7 +21,7 @@ namespace TestProj
 
         }
 
-        // Deal initial hand by dealing two cards to hand
+        // Deal initial hand by dealing two cards from deck
         void DealHand()
         {
             DealCardFromDeck();
