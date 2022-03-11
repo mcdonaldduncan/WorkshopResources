@@ -2,13 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Enemy : MonoBehaviour
+public class Teleporter : MonoBehaviour
 {
+    [SerializeField] Transform exit;
+
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.GetContact(0).normal.y < -0.5)
-        {
-            gameObject.SetActive(false);
-        }
+        collision.gameObject.transform.position = exit.position;
     }
 }
