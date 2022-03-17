@@ -22,6 +22,7 @@ namespace WorkshopTues3._8
             Console.WriteLine($"player has {player.currency} moneys");
         }
 
+
         public int GetInput()
         {
             int input = Convert.ToInt32(Console.ReadLine());
