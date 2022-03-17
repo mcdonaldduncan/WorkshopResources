@@ -94,5 +94,10 @@ namespace TestProj
             }
 
         }
+
+        void RunGame()
+        {
+
+        }
     }
 }
