@@ -11,7 +11,7 @@ namespace WorkshopTues3._8
             shop.StartShop();
             shop.PrintOptions();
 
-            shop.BuyItem(2);
+            shop.BuyItem(shop.GetInput());
             
             shop.PrintOptions();
             Console.ReadKey();
