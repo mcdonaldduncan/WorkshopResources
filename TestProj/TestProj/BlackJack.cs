@@ -42,6 +42,7 @@ namespace TestProj
         // Sum the corrected values of all cards in hand
         int SumHand(Person subject)
         {
+            CheckForAces(subject, SumHand(subject));
             int handSum = 0;
             for (int i = 0; i < subject.hand.Count; i++)
             {
@@ -59,6 +60,11 @@ namespace TestProj
                 }
             }
             return handSum;
+        }
+
+        void PrintHandSum(Person subject)
+        {
+            Print($"The value of your hand is {SumHand(subject)}");
         }
 
         // Print all cards in hand to console
@@ -128,7 +134,54 @@ namespace TestProj
 
         void RunGame()
         {
+            DealInitialHands();
 
+            
+
+        }
+
+        void BlackJackHand()
+        {
+
+        }
+
+        void Bust()
+        {
+
+        }
+
+        void PlayerTurn()
+        {
+            // While hand is less than 21 print hand and check for hit. On pass, exit loop
+            while (SumHand(player) < 21)
+            {
+                // Print the cards in the hand
+                PrintPlayerHand();
+
+                Pause();
+
+                // Request a hit or pass, 
+                if (HitOrPass())
+                {
+                    DealCardFromDeck(player);
+                }
+                else
+                {
+                    break;
+                }
+            }
+
+            // If player hand equals 21 player has blackjack, else player busts
+            if (SumHand(player) == 21)
+            {
+                PrintPlayerHand();
+                BlackJackHand();
+            }
+            else if (SumHand(player) > 21)
+            {
+                PrintPlayerHand();
+                Bust();
+            }
         }
     }
 }
