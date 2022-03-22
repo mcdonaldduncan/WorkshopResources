@@ -8,6 +8,10 @@ namespace TestProj
 {
     class BlackJack : Game
     {
+        int aceValueHigh = 11;
+        int aceValueLow = 1;
+        int faceValue = 10;
+
         public override void Play()
         {
             InstantiateDeck();
@@ -35,18 +39,29 @@ namespace TestProj
             deck.cards.RemoveAt(0);
         }
 
-        // Sum the values of all cards in hand
+        // Sum the corrected values of all cards in hand
         int SumHand(Person subject)
         {
             int handSum = 0;
             for (int i = 0; i < subject.hand.Count; i++)
             {
-                handSum += subject.hand[i].Value;
+                if (subject.hand[i].Value == 14)
+                {
+                    handSum += aceValueHigh;
+                }
+                else if (subject.hand[i].Value > 10)
+                {
+                    handSum += faceValue;
+                }
+                else
+                {
+                    handSum += subject.hand[i].Value;
+                }
             }
             return handSum;
         }
 
-        // print all cards in hand to console
+        // Print all cards in hand to console
         void PrintPlayerHand()
         {
             Print("Current Hand:");
@@ -66,7 +81,7 @@ namespace TestProj
             {
                 if (subject.hand[i].Value == 14)
                 {
-                    subject.hand[i].Value = 1;
+                    subject.hand[i].Value = aceValueLow;
                 }
             }
         }
@@ -82,7 +97,7 @@ namespace TestProj
             {
                 return true;
             }
-            else if (playerInput == "n" || playerInput == "no" || playerInput == "pass")
+            else if (playerInput == "n" || playerInput == "no" || playerInput == "pass" || playerInput == "stand")
             {
                 return false;
             }
@@ -94,6 +109,22 @@ namespace TestProj
             }
 
         }
+
+        //bool CheckDealerNatural()
+        //{
+        //    if (dealer.hand[0].Value >= faceValue)
+        //    {
+
+        //    }
+        //}
+
+        //void CheckDealerHit()
+        //{
+        //    if (dealer.hand[0].Value )
+        //    {
+
+        //    }
+        //}
 
         void RunGame()
         {

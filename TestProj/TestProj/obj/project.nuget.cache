@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "GX9E+6N8JkainHd0hp1ta44CcAdbV6ePNEZl+RBE6NgVC+RoVVkqDgruW9V7ZZg4+cGZEdVx4O5s4zfKn2NgLw==",
+  "dgSpecHash": "pkH9fzOI0fiAGKkxt73AR4l1jFWiVDMVjZQf8Gds+YBauRdAp05WHmBWNQbopnTYzjfx1l4uKQ097tkXWFrHMA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\380939\\Documents\\GitHub\\WorkshopResources\\TestProj\\TestProj\\TestProj.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\dfmcd98\\Documents\\GitHub\\WorkshopResources\\TestProj\\TestProj\\TestProj.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\dfmcd98\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.22\\microsoft.netcore.app.host.win-x64.3.1.22.nupkg.sha512",
+    "C:\\Users\\dfmcd98\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\dfmcd98\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\dfmcd98\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
+  ],
   "logs": []
 }

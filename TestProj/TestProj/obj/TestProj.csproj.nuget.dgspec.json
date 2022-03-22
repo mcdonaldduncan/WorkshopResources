@@ -1,27 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\380939\\Documents\\GitHub\\WorkshopResources\\TestProj\\TestProj\\TestProj.csproj": {}
+    "C:\\Users\\dfmcd98\\Documents\\GitHub\\WorkshopResources\\TestProj\\TestProj\\TestProj.csproj": {}
   },
   "projects": {
-    "C:\\Users\\380939\\Documents\\GitHub\\WorkshopResources\\TestProj\\TestProj\\TestProj.csproj": {
+    "C:\\Users\\dfmcd98\\Documents\\GitHub\\WorkshopResources\\TestProj\\TestProj\\TestProj.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\380939\\Documents\\GitHub\\WorkshopResources\\TestProj\\TestProj\\TestProj.csproj",
+        "projectUniqueName": "C:\\Users\\dfmcd98\\Documents\\GitHub\\WorkshopResources\\TestProj\\TestProj\\TestProj.csproj",
         "projectName": "TestProj",
-        "projectPath": "C:\\Users\\380939\\Documents\\GitHub\\WorkshopResources\\TestProj\\TestProj\\TestProj.csproj",
-        "packagesPath": "C:\\Users\\380939\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\380939\\Documents\\GitHub\\WorkshopResources\\TestProj\\TestProj\\obj\\",
+        "projectPath": "C:\\Users\\dfmcd98\\Documents\\GitHub\\WorkshopResources\\TestProj\\TestProj\\TestProj.csproj",
+        "packagesPath": "C:\\Users\\dfmcd98\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dfmcd98\\Documents\\GitHub\\WorkshopResources\\TestProj\\TestProj\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\380939\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\dfmcd98\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -55,12 +49,30 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.1.22, 3.1.22]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }
