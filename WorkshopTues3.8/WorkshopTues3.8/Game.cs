@@ -18,6 +18,5 @@ namespace WorkshopTues3._8
             _shop.Battle(_player, _vendor);
         }
 
-
     }
 }

@@ -8,10 +8,14 @@ namespace TestProj
 {
     class BlackJack : Game
     {
+        int aceValueHigh = 11;
+        int aceValueLow = 1;
+        int faceValue = 10;
+
         public override void Play()
         {
             InstantiateDeck();
-
+            RunGame();
         }
 
         public override void StartGame()
@@ -35,18 +39,35 @@ namespace TestProj
             deck.cards.RemoveAt(0);
         }
 
-        // Sum the values of all cards in hand
+        // Sum the corrected values of all cards in hand
         int SumHand(Person subject)
         {
+            CheckForAces(subject, SumHand(subject));
             int handSum = 0;
             for (int i = 0; i < subject.hand.Count; i++)
             {
-                handSum += subject.hand[i].Value;
+                if (subject.hand[i].Value == 14)
+                {
+                    handSum += aceValueHigh;
+                }
+                else if (subject.hand[i].Value > 10)
+                {
+                    handSum += faceValue;
+                }
+                else
+                {
+                    handSum += subject.hand[i].Value;
+                }
             }
             return handSum;
         }
 
-        // print all cards in hand to console
+        void PrintHandSum(Person subject)
+        {
+            Print($"The value of your hand is {SumHand(subject)}");
+        }
+
+        // Print all cards in hand to console
         void PrintPlayerHand()
         {
             Print("Current Hand:");
@@ -66,7 +87,7 @@ namespace TestProj
             {
                 if (subject.hand[i].Value == 14)
                 {
-                    subject.hand[i].Value = 1;
+                    subject.hand[i].Value = aceValueLow;
                 }
             }
         }
@@ -82,7 +103,7 @@ namespace TestProj
             {
                 return true;
             }
-            else if (playerInput == "n" || playerInput == "no" || playerInput == "pass")
+            else if (playerInput == "n" || playerInput == "no" || playerInput == "pass" || playerInput == "stand")
             {
                 return false;
             }
@@ -95,9 +116,72 @@ namespace TestProj
 
         }
 
+        //bool CheckDealerNatural()
+        //{
+        //    if (dealer.hand[0].Value >= faceValue)
+        //    {
+
+        //    }
+        //}
+
+        //void CheckDealerHit()
+        //{
+        //    if (dealer.hand[0].Value )
+        //    {
+
+        //    }
+        //}
+
         void RunGame()
         {
+            DealInitialHands();
 
+            
+
+        }
+
+        void BlackJackHand()
+        {
+
+        }
+
+        void Bust()
+        {
+
+        }
+
+        void PlayerTurn()
+        {
+            // While hand is less than 21 print hand and check for hit. On pass, exit loop
+            while (SumHand(player) < 21)
+            {
+                // Print the cards in the hand
+                PrintPlayerHand();
+
+                Pause();
+
+                // Request a hit or pass, 
+                if (HitOrPass())
+                {
+                    DealCardFromDeck(player);
+                }
+                else
+                {
+                    break;
+                }
+            }
+
+            // If player hand equals 21 player has blackjack, else player busts
+            if (SumHand(player) == 21)
+            {
+                PrintPlayerHand();
+                BlackJackHand();
+            }
+            else if (SumHand(player) > 21)
+            {
+                PrintPlayerHand();
+                Bust();
+            }
         }
     }
 }
