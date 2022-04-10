@@ -11,3 +11,17 @@ C:\Users\380939\source\repos\TestProj\TestProj\obj\Debug\netcoreapp3.1\TestProj.
 C:\Users\380939\source\repos\TestProj\TestProj\obj\Debug\netcoreapp3.1\TestProj.dll
 C:\Users\380939\source\repos\TestProj\TestProj\obj\Debug\netcoreapp3.1\TestProj.pdb
 C:\Users\380939\source\repos\TestProj\TestProj\obj\Debug\netcoreapp3.1\TestProj.genruntimeconfig.cache
+C:\Users\dfmcd\Documents\GitHub\WorkshopResources\TestProj\TestProj\bin\Debug\netcoreapp3.1\TestProj.exe
+C:\Users\dfmcd\Documents\GitHub\WorkshopResources\TestProj\TestProj\bin\Debug\netcoreapp3.1\TestProj.deps.json
+C:\Users\dfmcd\Documents\GitHub\WorkshopResources\TestProj\TestProj\bin\Debug\netcoreapp3.1\TestProj.runtimeconfig.json
+C:\Users\dfmcd\Documents\GitHub\WorkshopResources\TestProj\TestProj\bin\Debug\netcoreapp3.1\TestProj.runtimeconfig.dev.json
+C:\Users\dfmcd\Documents\GitHub\WorkshopResources\TestProj\TestProj\bin\Debug\netcoreapp3.1\TestProj.dll
+C:\Users\dfmcd\Documents\GitHub\WorkshopResources\TestProj\TestProj\bin\Debug\netcoreapp3.1\TestProj.pdb
+C:\Users\dfmcd\Documents\GitHub\WorkshopResources\TestProj\TestProj\obj\Debug\netcoreapp3.1\TestProj.csproj.AssemblyReference.cache
+C:\Users\dfmcd\Documents\GitHub\WorkshopResources\TestProj\TestProj\obj\Debug\netcoreapp3.1\TestProj.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dfmcd\Documents\GitHub\WorkshopResources\TestProj\TestProj\obj\Debug\netcoreapp3.1\TestProj.AssemblyInfoInputs.cache
+C:\Users\dfmcd\Documents\GitHub\WorkshopResources\TestProj\TestProj\obj\Debug\netcoreapp3.1\TestProj.AssemblyInfo.cs
+C:\Users\dfmcd\Documents\GitHub\WorkshopResources\TestProj\TestProj\obj\Debug\netcoreapp3.1\TestProj.csproj.CoreCompileInputs.cache
+C:\Users\dfmcd\Documents\GitHub\WorkshopResources\TestProj\TestProj\obj\Debug\netcoreapp3.1\TestProj.dll
+C:\Users\dfmcd\Documents\GitHub\WorkshopResources\TestProj\TestProj\obj\Debug\netcoreapp3.1\TestProj.pdb
+C:\Users\dfmcd\Documents\GitHub\WorkshopResources\TestProj\TestProj\obj\Debug\netcoreapp3.1\TestProj.genruntimeconfig.cache
