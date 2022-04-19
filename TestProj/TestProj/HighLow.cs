@@ -28,12 +28,9 @@ namespace TestProj
             return val;
         }
 
-        // Return true if card 0 is higher than card 1
-        bool CheckValues()
-        {
-            return GetCardValue(0) < GetCardValue(1);
-        }
-        
+        // Return true if card 1 is higher than card 0
+        bool CheckValues() => GetCardValue(0) < GetCardValue(1);
+
         // Print instructions
         void PrintGame()
         {
