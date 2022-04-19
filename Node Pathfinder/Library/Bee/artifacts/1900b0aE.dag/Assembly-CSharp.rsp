@@ -319,7 +319,12 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/VSSettingsProvider.ref.dll"
-"Assets/Scripts/NodePathfinder.cs"
+"Assets/Scripts/BirdAnimation/NodePathfinder.cs"
+"Assets/Scripts/BirdAnimation/RotatingBird.cs"
+"Assets/Scripts/BirdAnimation/RotatingBird2.cs"
+"Assets/Scripts/CommandTrailer.cs"
+"Assets/Scripts/Meteor.cs"
+"Assets/Scripts/Trailer.cs"
 -langversion:8.0
 
 /deterministic
