@@ -7,22 +7,56 @@ public class MovingPlatform : MonoBehaviour
     [SerializeField] Transform pos1;
     [SerializeField] Transform pos2;
     [SerializeField] float speed;
+    [SerializeField] float delayTime;
+
+    WaitForSeconds delay;
 
     float step;
 
     bool shouldMove;
     bool moveToPos1;
     bool moveToPos2;
+    bool canTrigger;
+    bool onDelay;
 
-    // Start is called before the first frame update
     void Start()
     {
         shouldMove = false;
+        delay = new WaitForSeconds(delayTime);
     }
 
-    // Update is called once per frame
     void Update()
     {
+        CheckPosition();
+        CheckStart();
+    }
+
+    IEnumerator ResetDelay()
+    {
+        yield return delay;
+        onDelay = false;
+    }
+
+    void CheckStart()
+    {
+        if (!canTrigger)
+            return;
+        if (onDelay)
+            return;
+
+        if (Input.GetKey(KeyCode.E))
+        {
+            shouldMove = !shouldMove;
+            onDelay = true;
+            StartCoroutine(ResetDelay());
+        }
+    }
+
+    void CheckPosition()
+    {
+        if (!shouldMove)
+            return;
+
         if (Vector3.Distance(transform.position, pos1.position) < 1)
         {
             moveToPos2 = true;
@@ -54,8 +88,8 @@ public class MovingPlatform : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            shouldMove = true;
             collision.transform.SetParent(transform);
+            canTrigger = true;
         }
     }
 
@@ -63,8 +97,8 @@ public class MovingPlatform : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            shouldMove = false;
             collision.transform.SetParent(null);
+            canTrigger = false;
         }
     }
 }
