@@ -1,0 +1,8 @@
+C:\Users\dfmcd\Documents\GitHub\WorkshopResources\FindCat\FindCat\bin\Debug\FindCat.exe.config
+C:\Users\dfmcd\Documents\GitHub\WorkshopResources\FindCat\FindCat\bin\Debug\FindCat.exe
+C:\Users\dfmcd\Documents\GitHub\WorkshopResources\FindCat\FindCat\bin\Debug\FindCat.pdb
+C:\Users\dfmcd\Documents\GitHub\WorkshopResources\FindCat\FindCat\obj\Debug\FindCat.csproj.AssemblyReference.cache
+C:\Users\dfmcd\Documents\GitHub\WorkshopResources\FindCat\FindCat\obj\Debug\FindCat.csproj.SuggestedBindingRedirects.cache
+C:\Users\dfmcd\Documents\GitHub\WorkshopResources\FindCat\FindCat\obj\Debug\FindCat.csproj.CoreCompileInputs.cache
+C:\Users\dfmcd\Documents\GitHub\WorkshopResources\FindCat\FindCat\obj\Debug\FindCat.exe
+C:\Users\dfmcd\Documents\GitHub\WorkshopResources\FindCat\FindCat\obj\Debug\FindCat.pdb
