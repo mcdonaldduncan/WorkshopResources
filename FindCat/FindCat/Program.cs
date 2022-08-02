@@ -29,7 +29,7 @@ namespace FindCat
                     if (isFound)
                         break;
 
-                    Console.WriteLine($"Guess:{i}");
+                    Console.WriteLine($"Guess: {i}");
                     Console.WriteLine($"Actual: {pos}");
 
                     isFound = CheckGuess(i, pos);
@@ -42,7 +42,7 @@ namespace FindCat
                     if (isFound)
                         break;
 
-                    Console.WriteLine($"Guess:{i}");
+                    Console.WriteLine($"Guess: {i}");
                     Console.WriteLine($"Actual: {pos}");
 
                     isFound = CheckGuess(i, pos);
@@ -110,3 +110,5 @@ namespace FindCat
         
     }
 }
+
+
