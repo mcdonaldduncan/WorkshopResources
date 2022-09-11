@@ -31,7 +31,6 @@ namespace AlgoWork
                         return indices;
                     }
                 }
-
             }
 
             return indices;
@@ -40,8 +39,6 @@ namespace AlgoWork
 
         public int RomanToInt(string s)
         {
-            
-
             Dictionary<string, int> table = new Dictionary<string, int>()
             {
                 {"I", 1},
@@ -69,8 +66,7 @@ namespace AlgoWork
 
                 prevValue = table[s[i].ToString()];
             }
-               
-
+            
             return totalValue;
         }
     }
