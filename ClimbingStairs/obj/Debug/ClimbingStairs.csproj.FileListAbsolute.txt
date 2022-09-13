@@ -6,3 +6,11 @@ C:\Users\dfmcd\Documents\GitHub\WorkshopResources\ClimbingStairs\obj\Debug\Climb
 C:\Users\dfmcd\Documents\GitHub\WorkshopResources\ClimbingStairs\obj\Debug\ClimbingStairs.csproj.CoreCompileInputs.cache
 C:\Users\dfmcd\Documents\GitHub\WorkshopResources\ClimbingStairs\obj\Debug\ClimbingStairs.exe
 C:\Users\dfmcd\Documents\GitHub\WorkshopResources\ClimbingStairs\obj\Debug\ClimbingStairs.pdb
+C:\Users\dfmcd98\Documents\GitHub\WorkshopResources\ClimbingStairs\bin\Debug\ClimbingStairs.exe.config
+C:\Users\dfmcd98\Documents\GitHub\WorkshopResources\ClimbingStairs\bin\Debug\ClimbingStairs.exe
+C:\Users\dfmcd98\Documents\GitHub\WorkshopResources\ClimbingStairs\bin\Debug\ClimbingStairs.pdb
+C:\Users\dfmcd98\Documents\GitHub\WorkshopResources\ClimbingStairs\obj\Debug\ClimbingStairs.csproj.AssemblyReference.cache
+C:\Users\dfmcd98\Documents\GitHub\WorkshopResources\ClimbingStairs\obj\Debug\ClimbingStairs.csproj.SuggestedBindingRedirects.cache
+C:\Users\dfmcd98\Documents\GitHub\WorkshopResources\ClimbingStairs\obj\Debug\ClimbingStairs.csproj.CoreCompileInputs.cache
+C:\Users\dfmcd98\Documents\GitHub\WorkshopResources\ClimbingStairs\obj\Debug\ClimbingStairs.exe
+C:\Users\dfmcd98\Documents\GitHub\WorkshopResources\ClimbingStairs\obj\Debug\ClimbingStairs.pdb

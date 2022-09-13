@@ -29,15 +29,15 @@ namespace ClimbingStairs
                 return p1;
             }
 
-
-
-            // Brute Force
+            
             Console.WriteLine("Enter the number of stairs: ");
             int stairs = Convert.ToInt32(Console.ReadLine());
             //FindPermutations(stairs);
             Console.WriteLine("The number of permutations is: " + ClimbStairs(stairs));
             Console.ReadLine();
 
+
+            // Brute Force
             void FindPermutations(int n)
             {
                 IterateTree(0, n);
