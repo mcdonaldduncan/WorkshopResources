@@ -32,8 +32,8 @@ namespace ClimbingStairs
             
             Console.WriteLine("Enter the number of stairs: ");
             int stairs = Convert.ToInt32(Console.ReadLine());
-            //FindPermutations(stairs);
-            Console.WriteLine("The number of permutations is: " + ClimbStairs(stairs));
+            FindPermutations(stairs);
+            Console.WriteLine("The number of permutations is: " + permutations);
             Console.ReadLine();
 
 
