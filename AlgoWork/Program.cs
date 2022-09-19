@@ -11,7 +11,6 @@ namespace AlgoWork
         static void Main(string[] args)
         {
             
-
         }
 
         public int[] TwoSum(int[] nums, int target)
@@ -32,7 +31,6 @@ namespace AlgoWork
                     }
                 }
             }
-
             return indices;
         }
 
@@ -63,7 +61,6 @@ namespace AlgoWork
                 {
                     totalValue += table[s[i].ToString()];
                 }
-
                 prevValue = table[s[i].ToString()];
             }
             
