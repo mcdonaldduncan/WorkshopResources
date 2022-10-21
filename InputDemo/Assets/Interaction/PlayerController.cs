@@ -5,10 +5,10 @@ using UnityEngine.InputSystem;
 
 public class PlayerController : MonoBehaviour
 {
+    // default generated script
     static InputActions _input;
 
     Vector3 moveValue;
-
     float moveSpeed = 5f;
 
     private void Awake()
@@ -33,6 +33,7 @@ public class PlayerController : MonoBehaviour
 
     private void Update()
     {
+        if (moveValue == Vector3.zero) return;
         transform.Translate(moveSpeed * Time.deltaTime * moveValue);
     }
 
@@ -41,5 +42,6 @@ public class PlayerController : MonoBehaviour
         Vector2 current = context.ReadValue<Vector2>();
         moveValue = new Vector3(current.x, 0, current.y);
     }
+    
 }
     
