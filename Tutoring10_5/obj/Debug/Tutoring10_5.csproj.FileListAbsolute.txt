@@ -1,0 +1,8 @@
+C:\Users\dfmcd\Documents\GitHub\WorkshopResources\Tutoring10_5\bin\Debug\Tutoring10_5.exe.config
+C:\Users\dfmcd\Documents\GitHub\WorkshopResources\Tutoring10_5\bin\Debug\Tutoring10_5.exe
+C:\Users\dfmcd\Documents\GitHub\WorkshopResources\Tutoring10_5\bin\Debug\Tutoring10_5.pdb
+C:\Users\dfmcd\Documents\GitHub\WorkshopResources\Tutoring10_5\obj\Debug\Tutoring10_5.csproj.AssemblyReference.cache
+C:\Users\dfmcd\Documents\GitHub\WorkshopResources\Tutoring10_5\obj\Debug\Tutoring10_5.csproj.SuggestedBindingRedirects.cache
+C:\Users\dfmcd\Documents\GitHub\WorkshopResources\Tutoring10_5\obj\Debug\Tutoring10_5.csproj.CoreCompileInputs.cache
+C:\Users\dfmcd\Documents\GitHub\WorkshopResources\Tutoring10_5\obj\Debug\Tutoring10_5.exe
+C:\Users\dfmcd\Documents\GitHub\WorkshopResources\Tutoring10_5\obj\Debug\Tutoring10_5.pdb

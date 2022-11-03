@@ -56,12 +56,14 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Meteor.cs" />
+    <Compile Include="Assets\Scripts\Trailer.cs" />
+    <Compile Include="Assets\Scripts\CommandTrailer.cs" />
     <Compile Include="Assets\Scripts\BirdAnimation\RotatingBird.cs" />
     <Compile Include="Assets\Scripts\BirdAnimation\RotatingBird2.cs" />
     <Compile Include="Assets\Scripts\BirdAnimation\NodePathfinder.cs" />
-    <Compile Include="Assets\Scripts\Trailer.cs" />
-    <Compile Include="Assets\Scripts\CommandTrailer.cs" />
-    <Compile Include="Assets\Scripts\Meteor.cs" />
+    <Compile Include="Assets\Scripts\BirdAnimation\SmoothFollow.cs" />
+    <Compile Include="Assets\Scripts\BirdAnimation\NodePath.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -300,6 +302,12 @@
     </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.0\Runtime\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+      <HintPath>D:\Unity\2021.1.12f1\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Common">
+      <HintPath>D:\Unity\2021.1.12f1\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Common.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>D:\Unity\2021.1.12f1\Editor\Data\NetStandard\ref\2.0.0\netstandard.dll</HintPath>

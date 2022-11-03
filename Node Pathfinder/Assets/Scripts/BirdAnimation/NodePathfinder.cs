@@ -1,53 +1,41 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using static UnityEngine.GraphicsBuffer;
 
 public class NodePathfinder : MonoBehaviour
 {
-    [SerializeField] Transform[] nodes;
-    [SerializeField] Transform plane;
-    [SerializeField] Collider col;
-    [SerializeField] float speed;
-    [SerializeField] int index;
+    [SerializeField] NodePath path;
+    [SerializeField] float m_Speed;
 
-    [System.NonSerialized] public bool shouldDestroy;
-    [System.NonSerialized] public bool shouldMove;
+    int index;
 
-    Bounds colBounds;
+#if UNITY_EDITOR
+    private void OnDrawGizmos()
+    {
+        Gizmos.DrawWireCube(transform.position, Vector3.one);
+    }
+#endif
 
     void Start()
     {
         index = 0;
-        shouldDestroy = false;
-        shouldMove = false;
-        colBounds = col.bounds;
     }
 
     void Update()
     {
-        CheckStart();
-        if (shouldMove)
-            FollowNodes();
+        FollowNodes();
     }
 
     void FollowNodes()
     {
-        if (Vector3.Distance(transform.position, nodes[index].position) < 1f)
-            index++;
-        if (index == nodes.Length)
-        {
-            shouldDestroy = true;
+        if (index >= path.m_Nodes.Length)
             return;
-        }
-            
 
-        float step = speed * Time.deltaTime;
-        transform.position = Vector3.MoveTowards(transform.position, nodes[index].position, step);
-    }
+        float step = m_Speed * Time.deltaTime;
+        transform.position = Vector3.MoveTowards(transform.position, path.m_Nodes[index].position, step);
 
-    void CheckStart()
-    {
-        if (colBounds.Contains(plane.position))
-            shouldMove = true;
+        if (Vector3.Distance(transform.position, path.m_Nodes[index].position) < .5f)
+            index++;
     }
 }

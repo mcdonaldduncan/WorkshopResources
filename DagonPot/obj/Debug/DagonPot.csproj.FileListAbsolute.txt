@@ -1,0 +1,8 @@
+C:\Users\dfmcd\Documents\GitHub\WorkshopResources\DagonPot\bin\Debug\DagonPot.exe.config
+C:\Users\dfmcd\Documents\GitHub\WorkshopResources\DagonPot\bin\Debug\DagonPot.exe
+C:\Users\dfmcd\Documents\GitHub\WorkshopResources\DagonPot\bin\Debug\DagonPot.pdb
+C:\Users\dfmcd\Documents\GitHub\WorkshopResources\DagonPot\obj\Debug\DagonPot.csproj.AssemblyReference.cache
+C:\Users\dfmcd\Documents\GitHub\WorkshopResources\DagonPot\obj\Debug\DagonPot.csproj.SuggestedBindingRedirects.cache
+C:\Users\dfmcd\Documents\GitHub\WorkshopResources\DagonPot\obj\Debug\DagonPot.csproj.CoreCompileInputs.cache
+C:\Users\dfmcd\Documents\GitHub\WorkshopResources\DagonPot\obj\Debug\DagonPot.exe
+C:\Users\dfmcd\Documents\GitHub\WorkshopResources\DagonPot\obj\Debug\DagonPot.pdb

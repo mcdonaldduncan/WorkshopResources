@@ -42,7 +42,7 @@ public class RotatingBird : MonoBehaviour
 
     void CheckDestroy()
     {
-        if (nodePathFinder.shouldDestroy == true)
-            Destroy(gameObject);
+        //if (nodePathFinder.shouldDestroy == true)
+        //    Destroy(gameObject);
     }
 }

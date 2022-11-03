@@ -40,7 +40,7 @@ namespace ClimbingStairs
             // Brute Force
             void FindPermutations(int n)
             {
-                IterateTree(0, n);
+                permutations = ClimbStairs(n);
             }
 
             void IterateTree(int current, int target)
